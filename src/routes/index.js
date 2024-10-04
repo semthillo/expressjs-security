@@ -5,7 +5,7 @@ const router = express.Router();
 
 const message = "hello world"
 
-router.get('/', (req, res)=>{
+router.get('/api/hello', (req, res)=>{
     res.send(message)
 } )
 
